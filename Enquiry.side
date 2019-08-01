@@ -1,0 +1,276 @@
+{
+  "id": "7d105b19-69d5-407c-90a8-251c5c7c1626",
+  "version": "2.0",
+  "name": "Enquiry Form",
+  "url": "https://sciadev-scia.cs31.force.com",
+  "tests": [{
+    "id": "7b33f7cf-acf3-4e18-b867-de345cca7b0a",
+    "name": "Enquiry form",
+    "commands": [{
+      "id": "5823a370-a44f-4963-9367-829a417d07e4",
+      "comment": "",
+      "command": "open",
+      "target": "/enquiryform",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4a25c78-615d-417a-a2ab-4ba2a9a76caa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x802",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca8a07c2-a0bb-47d5-b66d-2c3c1eeb82e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.multiselect",
+      "targets": [
+        ["css=.multiselect", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[2]/div/form-group/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1d0293e-f156-4dc9-9ac8-5616460ebd4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-binding:nth-child(1) .checkbox",
+      "targets": [
+        ["css=.ng-binding:nth-child(1) .checkbox", "css:finder"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[2]/div/form-group/div/div/div/div/ul/li/a/label", "xpath:idRelative"],
+        ["xpath=//a/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Accommodation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caae518a-7f40-4b2f-97a0-0727ac96019e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Are you *",
+      "targets": [
+        ["id=Are you *", "id"],
+        ["name=Are you *", "name"],
+        ["css=#Are\\ you\\ \\*", "css:finder"],
+        ["xpath=//select[@id='Are you *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[2]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab509e72-a978-4417-9cd1-e3642790d453",
+      "comment": "",
+      "command": "select",
+      "target": "id=Are you *",
+      "targets": [],
+      "value": "value=Person with a disability"
+    }, {
+      "id": "0103f733-f47d-4341-ae87-c739502a85bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=First Name *",
+      "targets": [
+        ["id=First Name *", "id"],
+        ["name=First Name *", "name"],
+        ["css=#First\\ Name\\ \\*", "css:finder"],
+        ["xpath=//input[@id='First Name *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[3]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53217d21-3012-488c-a903-64bd7ce35373",
+      "comment": "",
+      "command": "type",
+      "target": "id=First Name *",
+      "targets": [
+        ["id=First Name *", "id"],
+        ["name=First Name *", "name"],
+        ["css=#First\\ Name\\ \\*", "css:finder"],
+        ["xpath=//input[@id='First Name *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[3]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "b67d8330-9f62-4bca-8fd6-c9c6577815f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Last Name *",
+      "targets": [
+        ["id=Last Name *", "id"],
+        ["name=Last Name *", "name"],
+        ["css=#Last\\ Name\\ \\*", "css:finder"],
+        ["xpath=//input[@id='Last Name *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[3]/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ad1b82-8267-4518-b1a5-6fdb56dbb8bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=Last Name *",
+      "targets": [
+        ["id=Last Name *", "id"],
+        ["name=Last Name *", "name"],
+        ["css=#Last\\ Name\\ \\*", "css:finder"],
+        ["xpath=//input[@id='Last Name *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[3]/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "80bc7adc-14dd-4b4c-8fb3-5cbc0589820b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email *",
+      "targets": [
+        ["id=Email *", "id"],
+        ["name=Email *", "name"],
+        ["css=#Email\\ \\*", "css:finder"],
+        ["xpath=//input[@id='Email *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[4]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d89a5e19-fe92-4bfd-abfc-e806c61120fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email *",
+      "targets": [
+        ["id=Email *", "id"],
+        ["name=Email *", "name"],
+        ["css=#Email\\ \\*", "css:finder"],
+        ["xpath=//input[@id='Email *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[4]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ajdf@gmail.com"
+    }, {
+      "id": "15521f84-abf4-4d74-a40c-9f0b872006aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(4) > .col-md-8:nth-child(2) .form-group",
+      "targets": [
+        ["css=.row:nth-child(4) > .col-md-8:nth-child(2) .form-group", "css:finder"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[4]/div[2]/form-group/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/form-group/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e56c4f65-0bd0-4f0b-be4e-bbae2a1c81c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=memberPhone",
+      "targets": [
+        ["id=memberPhone", "id"],
+        ["css=#memberPhone", "css:finder"],
+        ["xpath=//input[@id='memberPhone']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[4]/div[2]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a01c5c6-f10f-4ee2-a1d4-f1133924e39a",
+      "comment": "",
+      "command": "type",
+      "target": "id=memberPhone",
+      "targets": [
+        ["id=memberPhone", "id"],
+        ["css=#memberPhone", "css:finder"],
+        ["xpath=//input[@id='memberPhone']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[4]/div[2]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//group-input/input", "xpath:position"]
+      ],
+      "value": "1234567456"
+    }, {
+      "id": "c911f991-9a98-44de-ab8e-01921acb2511",
+      "comment": "",
+      "command": "click",
+      "target": "id=State *",
+      "targets": [
+        ["id=State *", "id"],
+        ["name=State *", "name"],
+        ["css=#State\\ \\*", "css:finder"],
+        ["xpath=//input[@id='State *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[5]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d31149e-f7b4-487d-940b-51baff35b83e",
+      "comment": "",
+      "command": "type",
+      "target": "id=State *",
+      "targets": [
+        ["id=State *", "id"],
+        ["name=State *", "name"],
+        ["css=#State\\ \\*", "css:finder"],
+        ["xpath=//input[@id='State *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[5]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Arizona"
+    }, {
+      "id": "01fb2b63-9e7d-4334-b527-49ed19df7fc7",
+      "comment": "",
+      "command": "click",
+      "target": "id=How did you hear about us? *",
+      "targets": [
+        ["id=How did you hear about us? *", "id"],
+        ["name=How did you hear about us? *", "name"],
+        ["css=#How\\ did\\ you\\ hear\\ about\\ us\\?\\ \\*", "css:finder"],
+        ["xpath=//select[@id='How did you hear about us? *']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[6]/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "881f6bb1-03ae-4d44-b3d8-35e22132e179",
+      "comment": "",
+      "command": "select",
+      "target": "id=How did you hear about us? *",
+      "targets": [],
+      "value": "value=Existing Client"
+    }, {
+      "id": "0b068f57-fbca-45e3-9d16-67d9fac3fab4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.donate-now",
+      "targets": [
+        ["css=.donate-now", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//article[@id='post-177']/div/div/donate/div/main/section/div/form/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "538c8543-f62f-4648-9919-b61c6d7b3790",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "10000"
+    }, {
+      "id": "8d455292-7f4d-4ad3-a8c5-a8be6d86457f",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=.toast-error",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "643347f0-e888-4ac2-b87a-7c55e34ff855",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7b33f7cf-acf3-4e18-b867-de345cca7b0a"]
+  }],
+  "urls": ["https://sciadev-scia.cs31.force.com/"],
+  "plugins": []
+}
